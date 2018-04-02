@@ -1,0 +1,1 @@
+# example-capistrano-deploy-via-bastion
