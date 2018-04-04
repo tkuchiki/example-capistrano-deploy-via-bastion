@@ -2,10 +2,12 @@
 
 ## Usage
 
+for capistrano-v2
+
 ```console
 $ bundle install --path=vendor/bundle
 $ cd docker && make build && make up && cd ../
-$ bundle exec cap development bastion:test
+$ bundle exec cap development bastion:hostname
 00:00 bastion:test
       01 hostname > /tmp/hostname
 Warning: Permanently added '[127.0.0.1]:8022' (RSA) to the list of known hosts.
