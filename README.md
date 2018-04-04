@@ -13,3 +13,5 @@ Warning: Permanently added '[127.0.0.1]:8022' (RSA) to the list of known hosts.
 $ cd docker && docker-compose exec ssh1 cat /tmp/hostname
 ssh1
 ```
+
+(capistrano v2)[https://github.com/tkuchiki/example-capistrano-deploy-via-bastion/tree/cap-v2]
